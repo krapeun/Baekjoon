@@ -34,7 +34,7 @@ int main() {
 		percent[i] = round(((double) over_score / (double) N) * 100000) / 100000;
 	}
 
-  // Output
+	// Output
 	for (int i = 0; i < C; i++) {
 		//cout.precision(5);
 		//cout << percent[i] * 100 << "%\n";
