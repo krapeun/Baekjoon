@@ -12,6 +12,7 @@ int main() {
 	for (int i = 0; i < N; i++)
 		cin >> number[i];
 
+	// Bubble Sort
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N - 1 - i; j++) {
 			if (number[j] > number[j + 1]) {	// SWAP
